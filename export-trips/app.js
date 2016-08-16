@@ -29,7 +29,7 @@ sessionOpts.resave = "true";
 sessionOpts.saveUninitialized = "true";
 logger.debug("Overriding 'Express' logger");
 app.use(require('morgan')("combined",{ "stream": logger.stream }));
-//app.use(session(sessionOpts));//
+app.use(session(sessionOpts));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
