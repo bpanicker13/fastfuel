@@ -1,9 +1,9 @@
 {
-    "CLIENT_ID":"OAUTH_CLIENT_ID",
-    "CLIENT_SECRET": "OAUTH_SECRET",
+    "CLIENT_ID":"MWJmNGEyNmEtZTcyMC00MDZiLWIzM2ItZTBkZjQ5YmNhZTJj",
+    "CLIENT_SECRET": "MWMxNWRkZTYtMDkzYS00Y2ZmLTg5NGQtYjgxYmZlMDk2NTcx",
     "SESSION_SECRET": "PASSWORD_FOR_COOKIE",
     "AUTHORIZE_URL": "https://dash.by/api/auth/authorize",
-    "REDIRECT_URI": "https://www.YOUR-WEBSITE.com/authorize",
+    "REDIRECT_URI": "https://fastfuel.binupanicker.com/authorize",
     "ACCESS_TOKEN_URL": "https://dash.by/api/auth/token",
     "SCOPES": "user trips"
 }
